@@ -1,1 +1,5 @@
 # Movies-ETL
+
+## Objective 
+We were assigned a new task to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. We were to refactor the code that was used in this module to create one function that takes in three files (Wikipedia data, Kaggle metadata, and the MovieLens rating data) and perform the ETL process by adding the data to a PostgreSQL database. 
+We applied the skills and knowledge of Python, Pandas, the ETL process, and code refactoring that we learned from this module to write a function to read three different data files and create three separate DataFrames. We were then to extract and transform the Wikipedia data to merge it with the Kaggle metadata to create the movies_df DataFrame, we then merged the MovieLens rating DataFrame with the movies_df DataFrame to create the movie_with_ratings_df. Finally, with the same skills and knowledge set, we were to add the movies_df DataFrame and MovieLens rating DataFrame to a SQL database. 
